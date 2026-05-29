@@ -1,0 +1,12 @@
+{
+  "name": "kontainer",
+  "version": "1.0.0",
+  "description": "Minimal container runtime using Linux namespaces and cgroup v2",
+  "main": "kontainer.js",
+  "bin": { "kontainer": "./kontainer.js" },
+  "scripts": {
+    "start": "node kontainer.js"
+  },
+  "keywords": ["container", "linux", "namespaces", "cgroups", "devops"],
+  "license": "MIT"
+}
